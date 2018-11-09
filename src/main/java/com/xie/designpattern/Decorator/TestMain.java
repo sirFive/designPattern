@@ -19,6 +19,6 @@ public class TestMain {
 
         //要求：装饰类必须具有一个装饰的对象；装饰类必须拥有与被装饰对象相同的接口（或继承实现该接口的类）
 
-        //服饰类可以没有，没有的话就必须在每个装饰类中都添加component
+        //服饰类可以没有，没有的话就必须在每个装饰类中都添加component；具体参考https://www.cnblogs.com/qiumingcheng/p/5219631.html
     }
 }
