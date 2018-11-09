@@ -7,8 +7,8 @@ public class TestMain {
         TShirts tShirts = new TShirts();
         trouser.setComponent(p);
         tShirts.setComponent(trouser);
-        //tShirts.show();
-        trouser.show();
+        tShirts.show();
+        //trouser.show();
 
         //裤子的component为衣服，因此裤子的show()调用component.show()即为服务的show()，衣服的component为person,
         //因此衣服的show()方法中调用component.show()即为人.show()。因此一句话调用了3个类的show()方法
